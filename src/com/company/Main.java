@@ -1,5 +1,7 @@
 package com.company;
 
+import animal.Animal;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -62,6 +64,6 @@ public class Main {
         boolean d = true;
         System.out.println(d);
 
-
+        Animal cat = new Animal("Матроскін", 12, "смугастий");
     }
 }
